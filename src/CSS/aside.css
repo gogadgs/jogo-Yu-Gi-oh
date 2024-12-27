@@ -1,0 +1,26 @@
+aside{
+    min-width: 10vw;
+    max-width: 12vw;
+    min-height: 50vh;
+    max-height: 100vh;
+}
+aside nav{
+    display: flex;
+    flex-direction: column;
+   
+}
+aside  nav ul{
+    display: flex;
+    flex-grow: 1 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+    margin:0 auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin:3rem 0;
+}
+aside nav ul li i{
+    font-size:1.8rem;
+}

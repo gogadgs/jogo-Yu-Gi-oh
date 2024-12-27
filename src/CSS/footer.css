@@ -1,0 +1,12 @@
+footer{
+    width:100vw;
+    height:10vh;
+    background:linear-gradient(45deg,#432020 10%, #ffffff 10%, #28382a 10%);
+    padding:1rem;
+}
+footer p {
+    font-family: fantasy;
+    font-size: 1rem;
+    text-align: center;
+    color:#ffffff;
+}

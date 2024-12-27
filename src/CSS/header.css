@@ -1,0 +1,48 @@
+header{
+    display:grid;
+    grid-template-columns: repeat(3,3fr);
+    width:100vw;
+    height:15vh;
+}
+
+header nav{
+    display: grid;
+    width:100vw;
+    height:15vh;
+    grid-template-columns: repeat(3,3fr);
+
+}
+header nav ul {
+    display: grid;
+    width:100vw;
+    height:15vh;
+    grid-template-columns: repeat(3,3fr);
+    margin:0 -0.8rem;
+    align-content: center;
+    justify-items: center;
+    list-style: none;
+
+}
+
+header nav ul li{
+    text-transform: uppercase;
+    color:#262e47;
+    border:1px transparent #2a5347;
+    padding:2% 3%;
+    border-radius:30px;
+    
+}
+header nav ul li:hover a{
+    text-transform: uppercase;
+    color:#262e47;
+    background: red;
+    padding:20% 10%;
+    border-radius:30px;
+   
+ 
+}
+
+header nav ul li a{
+    text-decoration: none;
+    
+}
